@@ -50,6 +50,7 @@ gem 'sass-rails', '~> 6.0'
 gem 'bootstrap', '~> 5.3', '>= 5.3.2'
 gem 'jquery-rails', '~> 4.6'
 gem 'font_awesome5_rails', '~> 1.5'
+gem 'rails-ujs', '~> 0.1.0'
 # gem "sassc-rails"
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]

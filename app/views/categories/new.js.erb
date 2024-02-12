@@ -1,0 +1,8 @@
+//Render the new form
+$('.modal-body-categorias').html('<%= j render("form") %>');
+
+// Add the dialog title
+$('#modal-categorias-title').html("Nueva categoria");
+
+//Show the dynamic dialog
+$('#modalCategorias').modal("show");

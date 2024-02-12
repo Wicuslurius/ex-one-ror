@@ -38,7 +38,7 @@ class CategoriesController < ApplicationController
   end
 
   def destroy
-    @categoria.destroy
+    @category.destroy
     respond_to do |format|
       format.json { head :no_content}
       format.js
@@ -54,6 +54,6 @@ class CategoriesController < ApplicationController
     def category_params
       params
         .require(:category)
-        .permit(:nombre, :descripcion)
+        .permit(:nombre, :description)
     end
 end
